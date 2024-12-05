@@ -4,12 +4,12 @@ body {
   padding: 0;
   line-height: 1.6;
   background-color: #bcb881;
-  color: #333;
+  color: black;
 }
 
 header {
-  background: #333;
-  color: #fff;
+  background: black;
+  color: white;
   padding: 1rem 0;
 }
 
@@ -26,8 +26,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
+  color: white;
   font-size: 1.2rem;
 }
 
@@ -47,7 +46,7 @@ section {
 }
 
 #cameras {
-  background-color: #fff;
+  background-color: white;
 }
 
 .camera-list {
@@ -63,21 +62,21 @@ section {
   border-radius: 8px;
   padding: 1rem;
   width: 250px;
-  background: #f9f9f9;
+  background: white;
   text-align: center;
-  position: relative; /* Needed for positioning the price highlight */
-  transition: background-color 0.3s ease; /* Smooth background color change on hover */
+  position: relative; 
+  transition: background-color 0.3s ease; 
 }
 
 .camera img {
   width: 100%;
-  height: 70%;
+  height: 60%;
   border-radius: 8px;
-  transition: transform 0.3s ease; /* Smooth transition for rotation */
+  transition: transform 0.3s ease; 
 }
 
 .camera img:hover {
-  transform: rotate(10deg); /* Rotate the image slightly on hover */
+  transform: rotate(10deg); 
 }
 
 .camera h3 {
@@ -91,16 +90,15 @@ section {
 }
 
 .camera:hover p {
-  color: #daa520; /* Gold color for price on hover */
-  background-color: #d2c2c2; /* Light background box for the price */
-  padding: 0.2rem 0.5rem; /* Padding to make the box around the price more prominent */
-  border-radius: 5px; /* Rounded corners for the price highlight */
-  display: inline-block; /* Makes the price behave like a boxed element */
+  color: gold; 
+  background-color: #e3efef; 
+  padding: 0.2rem 0.5rem; 
+  display: inline-block; 
 }
 
 footer {
-  background: #333;
-  color: #fff;
+  background: black;
+  color: white;
   text-align: center;
   padding: 1rem 0;
   margin-top: 20px;
